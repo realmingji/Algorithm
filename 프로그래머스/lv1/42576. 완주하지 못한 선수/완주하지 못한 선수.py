@@ -2,7 +2,7 @@ def solution(participant, completion):
     # 1. 정렬 (sort 사용)
     # 2. participant와 completion 비교
     
-    # 해시 풀어보기
+    # 해시로 반드시 풀어보기
     participant.sort()
     completion.sort()
     
