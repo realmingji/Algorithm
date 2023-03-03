@@ -10,6 +10,5 @@ def solution(nums):
     
     if max >= arr:    # 최댓값이 중복되지 않는 값보다 크면 중복x 값 구하기
         return arr
-        
     else:
         return max
