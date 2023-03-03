@@ -9,5 +9,4 @@ def solution(participant, completion):
     for i in range(len(completion)):
         if (participant[i] != completion[i]): # 같지않으면
             return participant[i]
-    else:
-        return participant[-1]
+    return participant[-1]
