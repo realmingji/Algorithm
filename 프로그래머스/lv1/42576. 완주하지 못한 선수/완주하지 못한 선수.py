@@ -7,6 +7,6 @@ def solution(participant, completion):
     completion.sort()
     
     for i in range(len(completion)):
-        if (participant[i] != completion[i]): # 같지않으면
+        if (participant[i] != completion[i]): # 같지 않으면
             return participant[i]
     return participant[-1]
