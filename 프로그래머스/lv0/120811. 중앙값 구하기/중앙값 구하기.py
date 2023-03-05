@@ -1,3 +1,7 @@
 def solution(array):
-    array.sort()  
-    return array[len(array) // 2]
+    array.sort()
+
+    a = len(array)  
+
+    if ( a % 2 == 1 ):
+        return array[int(a/2)]
