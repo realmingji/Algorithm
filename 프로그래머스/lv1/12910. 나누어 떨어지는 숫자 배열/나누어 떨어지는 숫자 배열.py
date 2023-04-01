@@ -7,5 +7,5 @@ def solution(arr, divisor):
             answer.append(i)
             
     if len(answer) == 0:
-        return [-1]
+        answer.append(-1)
     return answer
