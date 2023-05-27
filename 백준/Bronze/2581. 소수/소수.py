@@ -4,7 +4,7 @@ arr = []
 
 for i in range(m, n+1): # m부터 n까지 for 
     count = 0 
-    if i > 1: 
+    if i >= 2: 
         for j in range(2, i):
             if i % j == 0:
                 count += 1 # 카운트 증가
