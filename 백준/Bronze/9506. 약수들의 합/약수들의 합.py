@@ -13,5 +13,4 @@ while True:
 		num = ' + '.join(map(str, a))
 		print(n, '=', num)
 	else:
-		re = f'{n} is NOT perfect.'
-		print(re)
+		print(f'{n} is NOT perfect.')
