@@ -6,9 +6,7 @@ import java.util.*;
 
 class Solution {
     public int[] solution(int[] arr) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        int[] newArr = new int[arr.length-1];   // 작은 수 제거 arr.length-1
-        
+        ArrayList<Integer> list = new ArrayList<Integer>();     
         // 배열에서 가장 작은 수 구하기
         int min = arr[0];       // 배열 값 저장
         
