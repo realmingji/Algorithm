@@ -1,5 +1,3 @@
-// 먼저 공백을 만날때까지 돌려라
-// 만약에 공백을 만났다? => 
 // 다시 풀어보기
 class Solution {
     public String solution(String s) {
@@ -8,18 +6,19 @@ class Solution {
 
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
- 
+            System.out.println("/1.x : " + x);
+            
             if (c == ' ') {
-                answer += c;
-                System.out.print(answer);
+                answer += c;        // answer =  answer + c
                 x = 0;
-                // System.out.print(x);
+                System.out.println("/2.x : " + x);
             } else {
                 if (x % 2 == 0) {
                     answer += Character.toUpperCase(c);
-                    // System.out.print(x);
+                    System.out.println("/3.x : " + x);
                 } else {
                     answer += Character.toLowerCase(c);
+                    System.out.println("/4.x : " + x);
                 }
                 x++;
             }
