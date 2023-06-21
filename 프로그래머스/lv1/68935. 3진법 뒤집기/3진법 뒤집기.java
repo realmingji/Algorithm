@@ -3,7 +3,6 @@
 // 5를 3으로 나누면 몫은 1이다. 나머지 2이다. => 이건 결국엔 3진법이 안 됨
 // 0이 나올때까지 하는거잖아? 몫이 0이 되면 그만
 
-import java.util.*;
 class Solution {
     public int solution(int n) {
         String str = "";
