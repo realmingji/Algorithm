@@ -15,7 +15,7 @@ class Solution {
             str = b + str;
             n = a;
         }
-        int bin = Integer.parseInt(new StringBuilder(str).reverse().toString(), 3);
-        return bin;
+        int answer = Integer.parseInt(new StringBuilder(str).reverse().toString(), 3);
+        return answer;
     }
 }
