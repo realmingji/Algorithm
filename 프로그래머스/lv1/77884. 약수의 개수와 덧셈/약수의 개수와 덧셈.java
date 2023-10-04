@@ -14,15 +14,15 @@ class Solution {
             for(int j=1; j<=range+1; j++){
                 if(range % j == 0){
                     int divisor = j;         // divisor은 약수
-                    // System.out.println("약수"+divisor+" ");
+                    System.out.println("약수"+divisor+" ");
                     cnt++;
                     // System.out.println("divisor" + cnt);
                 }
             }
             if (cnt % 2 == 0) {
-                answer += i;
+                answer += range;
             } else {
-                answer -= i;
+                answer -= range;
             }
         }
         return answer;
