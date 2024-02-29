@@ -13,10 +13,10 @@ class Solution {
         }
         
        else if(direction.equals("left")) {
+        answer[numbers.length - 1] = numbers[0];
         for (int j = 0; j < numbers.length - 1; j++) {
             answer[j] = numbers[j + 1];
         }
-        answer[numbers.length - 1] = numbers[0];
     }
         return answer;
     }
