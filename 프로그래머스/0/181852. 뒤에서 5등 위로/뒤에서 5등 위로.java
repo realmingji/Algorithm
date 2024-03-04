@@ -13,8 +13,8 @@ class Solution {
             }
         }
         
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = num_list[i+5];
+        for (int i = 5; i < num_list.length; i++) {
+            answer[i-5] = num_list[i];
         }
     
         return answer;
